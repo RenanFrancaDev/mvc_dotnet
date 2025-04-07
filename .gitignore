@@ -1,0 +1,13 @@
+# Pastas de build
+bin/
+obj/
+
+# Arquivos de usuário
+*.user
+*.suo
+
+# Configurações locais
+appsettings.Development.json
+
+# Dependências (se usar NuGet)
+packages/
