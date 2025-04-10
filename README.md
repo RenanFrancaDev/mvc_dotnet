@@ -8,7 +8,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 Criar Model
 Contato.cs
 
-Criat Contexto
+Criar Contexto
 criar pasta Context/AgendaContext.cs
 criar construtor AgendaContext
 
@@ -30,5 +30,7 @@ ContatoController.cs
 Criar View
 View/Contato
 
-Configurar no Controllet para que a View consiga carregar os contatos através do Entity Framework
+Configurar no Controller para que a View consiga carregar os contatos através do Entity Framework
+
+Criar metodo POST (Novo Contato) na Controller
 
