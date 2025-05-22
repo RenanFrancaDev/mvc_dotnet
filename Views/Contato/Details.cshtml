@@ -1,0 +1,35 @@
+@model modulo_mvc.Models.Contato
+
+@{
+    ViewData["Title"] = "Detalhes do contato";
+}    
+
+
+<h1>Detalhes</h1>
+
+<div>
+    <dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(x => x.Nome)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(x => x.Nome)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(x => x.Telefone)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(x => x.Telefone)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(x => x.Ativo)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(x => x.Ativo)
+    </dd>
+</dl>
+
+</div>
+<a asp-action="Editar" asp-route-id="@Model.Id">Editar</a>
